@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void clear_stdin() {
-  int c
+  int c;
     do {
         c = getchar();
     } while (c != '\n' && c != EOF);
